@@ -37,3 +37,9 @@ MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ['ipynb.markup']
 THEME = "../pelican-themes/blueidea"
+
+MENUITEMS = (
+    ('About', '/pages/about.html'),
+    ('Blog', '/category/blog.html'),
+    ('Vita', '/pdfs/HouserCV.pdf')
+    )
